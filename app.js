@@ -89,6 +89,6 @@ app.get("/about",function (req,res){
     
 
 // })
-app.listen(3000, function (response) {
+app.listen(process.env.PORT || 3000, function (response) {
     console.log("server started at port 3000.");
 });
